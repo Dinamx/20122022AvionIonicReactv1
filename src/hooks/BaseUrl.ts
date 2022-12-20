@@ -5,7 +5,7 @@ import { stringify } from 'querystring';
 
 
 export function baseUrl(concat: string): string {
-    return "http://localhost:8080" + concat;
+    return "https://20122022avionspringv1-production.up.railway.app" + concat;
 }
 // export async function baseUrl(concat: string): Promise<string> {
 //     return new Promise((resolve, reject) => {
